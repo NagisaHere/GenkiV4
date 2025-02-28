@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
+// own components
 import Navbar from "./components/navbar/navbar";
 
 const font = Nunito({
@@ -19,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.png" sizes="any"/>
       <body
         className={`${font.className} antialiased`}
       >

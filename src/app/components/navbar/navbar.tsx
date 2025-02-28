@@ -2,6 +2,7 @@
 
 import Container from "../Container";
 import Logo from "./Logo";
+import UserMenu from "./UserMenu";
 
 // gap is used to control spacing between flex elements. gap-3 == 0.75 rem
 const Navbar = () => {
@@ -19,6 +20,7 @@ const Navbar = () => {
                             md:gap-0"
                     >
                         <Logo/>
+                        <UserMenu/>
                     </div>
                 </Container>
             </div>
